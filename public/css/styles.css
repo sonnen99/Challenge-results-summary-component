@@ -1,0 +1,147 @@
+body {
+    font-family: "Hanken Grotesk", serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0;
+}
+
+h2 {
+    color: hsl(241, 100%, 89%);
+    font-size: 20px;
+}
+
+h4 {
+    color: hsl(224, 30%, 27%);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px auto 20px;
+}
+
+p {
+    color: hsla(241, 100%, 89%, 0.5);
+    margin: 0;
+    font-weight: 700;
+}
+
+img {
+    width: 24px;
+}
+
+.main-card {
+    border: none;
+}
+
+.top-card {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.bottom-card {
+    background: white;
+    border: none;
+}
+
+.summary-card {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    
+}
+
+.result {
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+    margin: 20px auto 20px;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    width: 10rem;
+    height: 10rem;
+}
+
+.category-text {
+    text-align: start;
+}
+
+.score-text {
+    text-align: end;
+}
+
+.category {
+    display: inline-block;
+}
+
+.score {
+    color: hsl(224, 30%, 27%);
+    display: inline-block;
+}
+
+.hundred {
+    color: hsl(241, 100%, 89%);
+    display: inline-block;
+}
+
+.btn {
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+}
+
+@media (min-width:375px) {
+
+    body {
+        background-color: hsl(221, 100%, 96%);
+        padding: 50px;
+        text-align: center;
+    }
+
+    
+    .main-card {
+        background-color: white;
+        border-radius: 30px;
+        margin: 0 auto;
+        width: fit-content;
+    }
+
+    .bottom-card {
+        border: none;
+        border-radius: 0;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        width: 18rem;
+        display: flex;
+        padding: 0;
+    }
+
+    .top-card {
+        border-radius: 30px;
+        max-width: 18rem;
+        padding-right: 0;
+        display: flex;
+    }
+
+    .attribution {
+        margin-top: 10px;
+    }
+}
